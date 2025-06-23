@@ -1,0 +1,38 @@
+body
+{
+    background-color:plum
+}
+ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding:18px;
+    overflow: hidden;
+    background-color: aliceblue;
+    
+}
+li 
+{
+    display: inline;
+}
+.Intro {
+display: flexbox;
+    text-align: center;
+    }
+.About {
+    display:flexbox;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 
+}
+.Projects {
+    text-align: center;
+    background-color: aquamarine;
+}
+.Contact {
+    text-align: center;
+    background-color: aquamarine;
+}
