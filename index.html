@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CM Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
-<body>
+<body class="dark-mode">  
 <ul>
   <li><a href="#Portfolio">Portfolio</a></li>
   <li><a href="#Home">Home</a></li>
@@ -16,15 +17,26 @@
 </ul> 
 <div class="Intro">
 <h1> Hello, I'm Camille. </h1>
-<br>
-<h3> Application Developer </h3>
+<h3> IT Professional | Application Developer </h3>
+<button type="button">
+    View My Work
+</button>
+<button type="button" button id="dark">Toggle Dark/Light Mode</button>
 </div>
+
 <div class="About">
     <h1> About Me</h1>
-    <img src="./CMProfile.jpeg" alt="picture">
+    <img src="CM Profile.jpeg" width="200px" alt="picture">
 
 <p> 
-    Former educator looking to expand into edtech. I enjoy completing creative, challenging tasks. I love helping people solve problems.
+    With more than a decade in the workforce, I have acquired several skills that have prepared me to 
+    work in the IT industry. While working in the education industry, I learned project management,
+    data analysis, and leadership skils. While working in customer service, I became an expert at 
+    solving problems and ensuring each client was satisfied. I'm so excited to use these skills to
+    help people have a seamless experience online.
+    <br>
+    In addition to the projects listed below, I am currently finishing a tech bootcamp
+    program and also in pursuit of certification. I look forward to hearing from you!
 </p>
 <button type="button">
     HTML
@@ -36,15 +48,64 @@
     JavaScript
 </button>
 </div>
+
 <div class="Projects">
 <h1>
     My Projects
 </h1>
+<div class="Projects1">
+    <div class="image1">
+    <img src="lake-1681485_640.jpg" class="image1">
+    <h3>Bookstore Project</h3>
+    <p>A book store app built with JavaScript.</p>
+    <button type="button">View Project</button>
+    </div>
 </div>
+<div class="Projects2">
+  
+    <img src="water-8100724_1280 (1).jpg" class="image2">
+    <h3>Weather App Project</h3>
+    <p> App designed to show local weather using React.</p>
+    <button type="button">View Project</button>
+</div>
+<div class="Projects3">
+    
+    <img src="mountains-5819652_1280.jpg" class="image3"> 
+    <h3>E-commerce Project</h3> 
+    <p>A functional online store.</p> 
+    <button type="button">View Project</button>
+</div>
+</div>
+
 <div class="Contact">
 <h1>
     Contact Me
 </h1>
+<div class="form1">
+<div class="form" id="Form">
+    <form>
+        <input type="text" id="name" name="name" placeholder="name">
+        <br>
+        <br>
+        <input type="text" id="email" name="email" placeholder="email">
+        <br>
+        <br>
+        <input type="text" id="message" name="message" placeholder="message">
+        <br>
+        <button type="submit">Submit</button>
+        <p> (Data submits as text in footer for demonstration purposes) </p>
+    </form>
+    </div>
 </div>
+</div>
+<div class="footer" id="footersection">
+<div class="icons">
+   <a href="https://www.linkedin.com/in/camille-mitchell-31c/" class="fa fa-linkedin" target="_blank"></a>
+   <a href="https://github.com/Camille-Mitchell" class="fa fa-github" target="_blank"></a>
+   <br>
+   <p>&copy; My portfolio. All rights reserved.</p>
+   </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
